@@ -7,6 +7,7 @@
 [submodule "SE_onlinetesting"]
 	path = SE_onlinetesting
 	url = git@github.com:key88cb/SE_onlinetesting.git
+	branch = allinone
 [submodule "team_project_eduMS"]
 	path = team_project_eduMS
 	url = git@github.com:snailxxd/team_project_eduMS.git
