@@ -1,0 +1,12 @@
+[submodule "CourseSelection"]
+	path = CourseSelection
+	url = git@github.com:Zhouua/CourseSelection.git
+[submodule "InfoSystem"]
+	path = InfoSystem
+	url = git@github.com:CYH0415/InfoSystem.git
+[submodule "SE_onlinetesting"]
+	path = SE_onlinetesting
+	url = git@github.com:key88cb/SE_onlinetesting.git
+[submodule "team_project_eduMS"]
+	path = team_project_eduMS
+	url = git@github.com:snailxxd/team_project_eduMS.git
