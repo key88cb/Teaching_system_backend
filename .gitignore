@@ -1,0 +1,66 @@
+# General ignores
+.DS_Store
+*.log
+*.tmp
+*.bak
+temp/
+# IDE specific
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Frontend (online-testing-frontend)
+## Vue / Vite / Node
+online-testing-frontend/node_modules/
+online-testing-frontend/dist/
+online-testing-frontend/.npm
+online-testing-frontend/npm-debug.log*
+online-testing-frontend/yarn-debug.log*
+online-testing-frontend/yarn-error.log*
+online-testing-frontend/.pnp/
+online-testing-frontend/.pnp.js
+online-testing-frontend/.vite/
+online-testing-frontend/.env.local
+online-testing-frontend/.env.*.local
+online-testing-frontend/coverage/
+online-testing-frontend/public/hot/
+online-testing-frontend/stats.html
+
+# Backend (online-testing-backend)
+## Maven
+online-testing-backend/target/
+online-testing-backend/*.mvn/
+online-testing-backend/mvnw
+online-testing-backend/mvnw.cmd
+online-testing-backend/.DS_Store
+
+## Gradle (if you were using Gradle)
+# online-testing-backend/.gradle/
+# online-testing-backend/build/
+# online-testing-backend/gradle/
+# online-testing-backend/gradlew
+# online-testing-backend/gradlew.bat
+
+## Java / IDE
+online-testing-backend/*.class
+online-testing-backend/*.jar
+online-testing-backend/*.war
+online-testing-backend/hs_err_pid*
+online-testing-backend/.project
+online-testing-backend/.classpath
+online-testing-backend/.settings/
+
+# Log files
+online-testing-backend/logs/
+online-testing-backend/*.log
+
+# IntelliJ IDEA specific files (if not covered by global .idea/)
+# online-testing-backend/.idea/
+# online-testing-backend/*.iml
+# online-testing-backend/*.ipr
+# online-testing-backend/*.iws
+
+# macOS
+.DS_Store
