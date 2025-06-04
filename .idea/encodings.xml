@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CourseSelection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CourseSelection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InfoSystem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InfoSystem/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend-springboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-testing-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-testing-backend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/section/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/team_project_eduMS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/team_project_eduMS/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
