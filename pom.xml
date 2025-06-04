@@ -23,7 +23,7 @@
 
     <modules>
         <module>CourseSelection</module>
-        <module>team_project_eduMS</module> <module>InfoSystem</module>         <module>online-testing-backend</module>
+        <module>team_project_eduMS</module> <module>InfoSystem</module>         <module>key88cb_online_testing_source/online-testing-backend</module>
     </modules>
 
     <dependencyManagement>
