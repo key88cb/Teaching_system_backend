@@ -1,0 +1,144 @@
+文件夹 PATH 列表
+卷序列号为 1474-CE4B
+E:.
+│  .gitattributes
+│  .gitignore
+│  1.txt
+│  mvnw
+│  mvnw.cmd
+│  pom.xml
+│  文件目录.bat
+│  
+├─.mvn
+│  └─wrapper
+│          maven-wrapper.properties
+│          
+├─src
+│  ├─main
+│  │  ├─java
+│  │  │  └─com
+│  │  │      └─example
+│  │  │          └─onlinetestingbackend
+│  │  │              │  OnlineTestingBackendApplication.java
+│  │  │              │  
+│  │  │              ├─controller
+│  │  │              │      QuestionController.java
+│  │  │              │      
+│  │  │              ├─dto
+│  │  │              │      OptionDto.java
+│  │  │              │      QuestionDto.java
+│  │  │              │      
+│  │  │              ├─entity
+│  │  │              │  │  DetailedResult.java
+│  │  │              │  │  ExamResult.java
+│  │  │              │  │  Option.java
+│  │  │              │  │  PaperInfo.java
+│  │  │              │  │  PaperQuestion.java
+│  │  │              │  │  Question.java
+│  │  │              │  │  
+│  │  │              │  └─id
+│  │  │              │          DetailedResultId.java
+│  │  │              │          ExamResultId.java
+│  │  │              │          OptionId.java
+│  │  │              │          PaperInfoId.java
+│  │  │              │          PaperQuestionId.java
+│  │  │              │          
+│  │  │              ├─exception
+│  │  │              │      ResourceNotFoundException.java
+│  │  │              │      
+│  │  │              ├─repository
+│  │  │              │      DetailedResultRepository.java
+│  │  │              │      ExamResultRepository.java
+│  │  │              │      OptionRepository.java
+│  │  │              │      PaperInfoRepository.java
+│  │  │              │      PaperQuestionRepository.java
+│  │  │              │      QuestionRepository.java
+│  │  │              │      
+│  │  │              └─service
+│  │  │                      QuestionService.java
+│  │  │                      
+│  │  └─resources
+│  │      │  application.properties
+│  │      │  
+│  │      ├─static
+│  │      └─templates
+│  └─test
+│      ├─java
+│      │  └─com
+│      │      └─example
+│      │          └─onlinetestingbackend
+│      │              │  OnlineTestingBackendApplicationTests.java
+│      │              │  
+│      │              └─repository
+│      │                      MySQLDataPersistenceTest.java
+│      │                      PaperInfoRepositoryTest.java
+│      │                      PaperQuestionRepositoryTest.java
+│      │                      QuestionRepositoryTest.java
+│      │                      
+│      └─resources
+│              application.properties
+│              
+└─target
+    ├─classes
+    │  │  application.properties
+    │  │  
+    │  └─com
+    │      └─example
+    │          └─onlinetestingbackend
+    │              │  OnlineTestingBackendApplication.class
+    │              │  
+    │              ├─controller
+    │              │      QuestionController$GlobalExceptionHandler.class
+    │              │      QuestionController.class
+    │              │      
+    │              ├─dto
+    │              │      OptionDto.class
+    │              │      QuestionDto.class
+    │              │      
+    │              ├─entity
+    │              │  │  DetailedResult.class
+    │              │  │  ExamResult.class
+    │              │  │  Option.class
+    │              │  │  PaperInfo.class
+    │              │  │  PaperQuestion.class
+    │              │  │  Question.class
+    │              │  │  
+    │              │  └─id
+    │              │          DetailedResultId.class
+    │              │          ExamResultId.class
+    │              │          OptionId.class
+    │              │          PaperInfoId.class
+    │              │          PaperQuestionId.class
+    │              │          
+    │              ├─exception
+    │              │      ResourceNotFoundException.class
+    │              │      
+    │              ├─repository
+    │              │      DetailedResultRepository.class
+    │              │      ExamResultRepository.class
+    │              │      OptionRepository.class
+    │              │      PaperInfoRepository.class
+    │              │      PaperQuestionRepository.class
+    │              │      QuestionRepository.class
+    │              │      
+    │              └─service
+    │                      QuestionService.class
+    │                      
+    ├─generated-sources
+    │  └─annotations
+    ├─generated-test-sources
+    │  └─test-annotations
+    └─test-classes
+        │  application.properties
+        │  
+        └─com
+            └─example
+                └─onlinetestingbackend
+                    │  OnlineTestingBackendApplicationTests.class
+                    │  
+                    └─repository
+                            MySQLDataPersistenceTest.class
+                            PaperInfoRepositoryTest.class
+                            PaperQuestionRepositoryTest.class
+                            QuestionRepositoryTest.class
+                            
