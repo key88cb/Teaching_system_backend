@@ -27,7 +27,7 @@
 - [信息管理后端](team_project_eduMS/src/main/resources/application.properties)
 - 预期结果：查看log除了EducationMSAppication因为类缺失错误无法运行以外,其余均可运行
 - 如果遇到问题请联系我（在线测试组组长）
-
+## 配置数据库（不完善，执行下方操作后仍可能出问题，请在解决报错后把描述发给我）
 ```sql
 -- 需要预先创建数据库：
 create database IF NOT EXISTS couseselection;
