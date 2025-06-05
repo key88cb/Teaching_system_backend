@@ -30,7 +30,7 @@
 ## 配置数据库（不完善，执行下方操作后仍可能出问题，请在解决报错后把描述发给我）
 ```sql
 -- 需要预先创建数据库：
-create database IF NOT EXISTS couseselection;
+create database IF NOT EXISTS courseselection;
 create database IF NOT EXISTS inforsystem;
 
 CREATE DATABASE IF NOT EXISTS online_test_db;
