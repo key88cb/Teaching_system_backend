@@ -1,5 +1,5 @@
 ﻿# 软件工程基础 教学管理系统A组 集成后端
-
+**先不要向我申请协作权限，请把本库fork到你自己本地进行修改后向我发出pull request我会审核通过**
 ## 这个库是怎么来的：
 我fork了各个大组的后端 完成了依赖修改和子模块集成 请各组在github上维护自己的现有后端即可（课程资源和课程安排小组请共同维护集成后端）
 ## 如何clone到本地：
@@ -24,6 +24,7 @@
 - [课程资源+课程安排集成后端](InfoSystem/src/main/resources/application.properties)
 - [在线测试后端](SE_onlinetesting/online-testing-backend/src/main/resources/application.properties)
 - [信息管理后端](team_project_eduMS/src/main/resources/application.properties)
+- 正常结果：查看log除了EducationMSAppication因为类缺失错误无法运行以外,其余均可运行
 
 ```sql
 -- 需要预先创建数据库：
