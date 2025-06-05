@@ -94,16 +94,18 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.11.0</version>
+                    <version>3.11.0</version> <!-- 或者您项目中使用的版本 -->
                     <configuration>
                         <source>${java.version}</source>
                         <target>${java.version}</target>
+                        <parameters>true</parameters> <!-- 添加这一行 -->
                         <annotationProcessorPaths>
                             <path>
                                 <groupId>org.projectlombok</groupId>
                                 <artifactId>lombok</artifactId>
                                 <version>${lombok.version}</version>
                             </path>
+                            <!-- 如果有其他注解处理器，也列在这里 -->
                         </annotationProcessorPaths>
                     </configuration>
                 </plugin>
