@@ -1,5 +1,5 @@
 ﻿# 软件工程基础 教学管理系统A组 集成后端
-**先不要向我申请协作权限，请把本库fork到你自己本地进行修改后向我发出pull request我会审核通过**
+**先不要向我申请协作权限，请把本库fork到你自己本地进行修改后向我发出pull request（包含较为清晰的描述）我会审核通过**
 ## 这个库是怎么来的：
 我fork了各个大组的后端 完成了依赖修改和子模块集成 请各组在github上维护自己的现有后端即可（课程资源和课程安排小组请共同维护集成后端）
 ## 如何clone到本地：
@@ -19,12 +19,14 @@
 3. 在线测试后端 SE_onlinetesting/online-testing-backend : 后端分配端口 8082 应用名 OnlineTestingBackendApplication
 4. 信息管理后端 team_project_eduMS : 后端分配端口 8080 应用名 EducationMsApplication
 ## 无法运行？
-4个后端（其中有一个是两个系统集成后端）对数据库的要求各不相同，需要在其中把部分application.properties的root密码改成你自己的root密码，请分别查看：
+4个后端（其中有一个是两个系统集成后端）对数据库的要求各不相同，需要在其中把部分application.properties的root密码改成你自己的root密码，请在clone到本地后分别查看：
+（下面的链接在github上无效）
 - [课程选择后端](CourseSelection/src/main/resources/application.properties)
 - [课程资源+课程安排集成后端](InfoSystem/src/main/resources/application.properties)
 - [在线测试后端](SE_onlinetesting/online-testing-backend/src/main/resources/application.properties)
 - [信息管理后端](team_project_eduMS/src/main/resources/application.properties)
-- 正常结果：查看log除了EducationMSAppication因为类缺失错误无法运行以外,其余均可运行
+- 预期结果：查看log除了EducationMSAppication因为类缺失错误无法运行以外,其余均可运行
+- 如果遇到问题请联系我（在线测试组组长）
 
 ```sql
 -- 需要预先创建数据库：
